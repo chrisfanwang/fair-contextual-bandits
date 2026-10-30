@@ -305,11 +305,7 @@ to the infinite-dimensional problem. The mixed distribution does not satisfy
 the continuous-density assumption, so comparison of its empirical slope with
 2/3 is descriptive.
 
-## Numerical settings and license
-
-`MAB_NUMERICAL_TOLERANCE = 1e-6` bounds accepted probability, fairness,
-boundary-gap and feasibility residuals. Optimisation uses the specified L.
-Models with cache keys longer than 9,000 bytes are computed without caching.
+## License
 
 The code is distributed under the MIT license in `LICENSE`. Dataset terms are
 separate. Please cite *Optimal Learning in Fairness-Aware Contextual Bandits*,
